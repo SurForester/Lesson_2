@@ -37,7 +37,7 @@ public class HomeWorkLesson2 {
 
     // определение числа на положительное/отрицательное
     public static boolean numbIsPositive(int numInt) {
-        return numInt >= 0;
+        return numInt < 0;
     }
 
     // печать строки в консоль указанное количество раз
